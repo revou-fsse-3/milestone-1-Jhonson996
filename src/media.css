@@ -1,0 +1,9 @@
+/* Tab */
+@media screen and ( max-width: 960px) {
+    .why-content{
+        grid-template-columns: 1fr;
+    }
+
+    
+
+}
