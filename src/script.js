@@ -1,28 +1,28 @@
-const btnNav = document.getElementById('btn-nav');
-const headerNav = document.querySelector('header');
+// const btnNav = document.getElementById('btn-nav');
+// const headerNav = document.querySelector('header');
 
-btnNav.addEventListener('click', () => {
-    if (headerNav.style.left === '0px') {
-        closeNavBar();
-    } else {
-        openNavBar();
-    }
-});
+// btnNav.addEventListener('click', () => {
+//     if (headerNav.style.left === '0px') {
+//         closeNavBar();
+//     } else {
+//         openNavBar();
+//     }
+// });
 
-function openNavBar() {
-    headerNav.style.left = '0';
-}
+// function openNavBar() {
+//     headerNav.style.left = '0';
+// }
 
-function closeNavBar() {
-    headerNav.style.left = '-20rem';
-}
+// function closeNavBar() {
+//     headerNav.style.left = '-20rem';
+// }
 
-const menuItems = document.querySelectorAll('nav a');
-menuItems.forEach((item) => {
-    item.addEventListener('click', () => {
-        closeNavBar();
-    });
-});
+// const menuItems = document.querySelectorAll('nav a');
+// menuItems.forEach((item) => {
+//     item.addEventListener('click', () => {
+//         closeNavBar();
+//     });
+// });
 
 
 
